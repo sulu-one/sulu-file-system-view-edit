@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/sulu-one/sulu-file-system-view-edit/issues"
   },
-  "homepage": "https://github.com/sulu-one/sulu-file-system-view-edit#readme"
+  "homepage": "https://github.com/sulu-one/sulu-file-system-view-edit#readme",
+  "dependencies": {  }
 }

@@ -4,8 +4,7 @@ var Command = function() {
 
 Command.prototype.open = function open() {
 	var v = this.GUI.activeView();
-	if (v){
-		var open = require('open');
+	if (v){ 
 		var view = this.GUI.activeView().model; 
 		var file = view.activeRowData();  
 		if (file){
