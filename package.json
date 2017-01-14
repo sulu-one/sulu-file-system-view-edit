@@ -2,7 +2,7 @@
   "suluPackage": true,
   "name": "sulu-file-system-view-edit",
   "description": "Open active files in linked editor applications in SULU",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
@@ -19,5 +19,5 @@
     "url": "https://github.com/sulu-one/sulu-file-system-view-edit/issues"
   },
   "homepage": "https://github.com/sulu-one/sulu-file-system-view-edit#readme",
-  "dependencies": {  }
+  "dependencies": {}
 }
