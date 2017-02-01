@@ -24,7 +24,6 @@ Command.prototype.open = function open() {
 
 var Plugin = function  (client) {
 	this.command = new Command();
-	client.app.registerHotKey("f4", this.command.open);
 };
 
 module.exports = Plugin;
