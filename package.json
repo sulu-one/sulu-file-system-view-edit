@@ -1,15 +1,15 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "f4" , 
-        "function" : "open"
+        "key": "f4",
+        "function": "open"
       }
     ]
-  }, 
+  },
   "name": "sulu-file-system-view-edit",
   "description": "Open active files in linked editor applications in SULU",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
